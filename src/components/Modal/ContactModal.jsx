@@ -37,7 +37,6 @@ export default function TransitionsModal() {
   });
 console.log(submit)
 console.log(state)
-  // Success message
   if (state.submitted) {
     return (
       <Modal
