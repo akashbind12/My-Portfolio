@@ -30,7 +30,6 @@ export default function TransitionsModal() {
   const handleClose = () => {
     setOpen(false);
   };
-  // Call the `useForm` hook in your function component
   const { state, submit } = useForm({
     id: "lNcF77RzH4K",
     
