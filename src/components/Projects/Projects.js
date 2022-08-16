@@ -37,7 +37,7 @@ function Projects() {
               isBlog={false}
               title="PUMA Clone "
               description="Puma SE, branded as Puma, is a German multinational corporation that designs and manufactures athletic and casual footwear, apparel and accessories. "
-              tech="ReactJs  |  Redux  |  Thunk  |  CSS | Material-ui | Json-server"
+              tech="ReactJs  |  Redux  |  NodeJs  |  ExpressJs  |  MongoDB  |  CSS | Material-ui | Firebase"
               link="https://github.com/akashbind12/PUMA_Clone.git"
               // linkmedium="https://asutoshblog.hashnode.dev/experience-of-cloning-quora"
               linklive="https://puma-clone-eight.vercel.app/"
