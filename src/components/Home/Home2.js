@@ -13,9 +13,9 @@ import { FaLinkedinIn } from "react-icons/fa";
 import TransitionsModal from "../Modal/ContactModal.jsx";
 import About from "../About/About.js";
 import Projects from "../Projects/Projects.js";
-import Techstack from "../About/Techstack.js";
-import Toolstack from "../About/Toolstack.js";
-import Github from "../About/Github.js";
+// import Techstack from "../About/Techstack.js";
+// import Toolstack from "../About/Toolstack.js";
+// import Github from "../About/Github.js";
 function Home2() {
   useEffect(() => {
     Aos.init({ duration: 1200 });
