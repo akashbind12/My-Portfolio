@@ -1,9 +1,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { AiFillGithub, AiFillMediumCircle } from "react-icons/ai";
-import { RiLiveLine } from "react-icons/ri";
-import {FiGitlab} from "react-icons/fi"
-import {SiHashnode, SiReact, SiNodedotjs, SiMongodb, SiCss3, SiJavascript} from "react-icons/si";
+import { AiFillGithub} from "react-icons/ai";
+// import { RiLiveLine } from "react-icons/ri";
+// import {FiGitlab} from "react-icons/fi"
+import { SiHashnode } from "react-icons/si";
+// import { SiReact, SiNodedotjs, SiMongodb, SiCss3, SiJavascript} from "react-icons/si";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
 
@@ -49,15 +50,15 @@ function ProjectCards(props) {
 
           <div style={{display: 'flex', justifyContent:'space-evenly'}}>
             <div>
-              <a onClick={() => openInNewTab(props.link)}
+              <a href="#" onClick={() => openInNewTab(props.link)}
                 style={{ textDecoration: 'none', color: 'white', cursor : "pointer" }}> <AiFillGithub style={{ height: '40px', width: '40px' }} target="_blank" /> </a>
             </div>
             <div>
-              <a onClick={() => openInNewTab(props.linkmedium)}
+              <a href="#" onClick={() => openInNewTab(props.linkmedium)}
                 style={{ textDecoration: 'none', color: 'white', cursor : "pointer"  }}><SiHashnode style={{ height: '40px', width: '40px' }} /></a>
             </div>
             <div>
-              <a onClick={() => openInNewTab(props.linklive)}
+              <a href="#" onClick={() => openInNewTab(props.linklive)}
                 style={{ textDecoration: 'none', color: 'white', cursor : "pointer" }}><BsBoxArrowUpRight style={{ height: '40px', width: '40px' }} /></a>
             </div>
           </div>
