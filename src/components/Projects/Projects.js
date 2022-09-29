@@ -12,6 +12,10 @@ import Kindmeal from "../../Assets/Projects/kindmeal.png";
 import Youtube from "../../Assets/Projects/youtube.png";
 import Puma from "../../Assets/Projects/puma.png";
 import Geekbuying from "../../Assets/Projects/Geekbuying.png";
+import WeatherApp from "../../Assets/Projects/Weather-App.png";
+import TicTacToe from "../../Assets/Projects/Tic-Tac-Toe.png";
+import GifPoster from "../../Assets/Projects/GIF-Poster.png";
+import GoogleTimer from "../../Assets/Projects/Google_timer.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Projects() {
@@ -96,7 +100,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={5} className="project-card" data-aos="fade-right">
+          <Col md={5} className="project-card" data-aos="fade-down">
             <ProjectCard
               imgPath={Youtube}
               isBlog={false}
@@ -108,6 +112,60 @@ function Projects() {
               linklive="https://youtube-clone-bice-gamma.vercel.app/"
             />
           </Col>
+
+          <Col md={5} className="project-card" data-aos="fade-up">
+            <ProjectCard
+              imgPath={WeatherApp}
+              isBlog={false}
+              title="Weather App"
+              description="It is a wheather-forcast app where use can see the current weather as well as next 7 days weather-forcast of any location"
+              tech="ReactJs  | CSS | Chakra-ui "
+              link="https://github.com/akashbind12/Weather-app.git"
+              // linkmedium="https://asutoshblog.hashnode.dev/frontend-masters-clone-using-mongodb-database"
+              linklive="https://weather-app-vqwj.vercel.app/"
+            />
+          </Col>
+
+          
+          <Col md={5} className="project-card" data-aos="fade-left">
+            <ProjectCard
+              imgPath={TicTacToe}
+              isBlog={false}
+              title="Tic-Tac-Toe App"
+              description="developed the tic-tac-toe game using the concepts of objects and react.js"
+              tech="ReactJs  | CSS "
+              link="https://github.com/akashbind12/Tic-Tac-Toe.git"
+              // linkmedium="https://asutoshblog.hashnode.dev/frontend-masters-clone-using-mongodb-database"
+              linklive="https://tic-tac-toe-akashbind12.vercel.app/"
+            />
+          </Col>
+
+          <Col md={5} className="project-card" data-aos="fade-right">
+            <ProjectCard
+              imgPath={GifPoster}
+              isBlog={false}
+              title="GIF image poster"
+              description="User can search for the GIf by choosing gif option  and can select any gif-image for the post like a social media app"
+              tech="ReactJs  | CSS | Chakra-ui "
+              link="https://github.com/akashbind12/codemancers_assignment.git"
+              // linkmedium="https://asutoshblog.hashnode.dev/frontend-masters-clone-using-mongodb-database"
+              linklive="https://dulcet-khapse-d3ee68.netlify.app/"
+            />
+          </Col>
+
+          <Col md={5} className="project-card" data-aos="fade-left">
+            <ProjectCard
+              imgPath={GoogleTimer}
+              isBlog={false}
+              title="Google Timer"
+              description="developed the clone of google-timer using react.js"
+              tech="ReactJs  | CSS"
+              link="https://github.com/akashbind12/React-google_Timer.git"
+              // linkmedium="https://asutoshblog.hashnode.dev/frontend-masters-clone-using-mongodb-database"
+              linklive="http://react-google-timer.vercel.app/"
+            />
+          </Col>
+
 
 
         </Row>
