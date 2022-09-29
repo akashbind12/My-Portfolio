@@ -50,15 +50,15 @@ function ProjectCards(props) {
 
           <div style={{display: 'flex', justifyContent:'space-evenly'}}>
             <div>
-              <a href="#" onClick={() => openInNewTab(props.link)}
+              <a  onClick={() => openInNewTab(props.link)}
                 style={{ textDecoration: 'none', color: 'white', cursor : "pointer" }}> <AiFillGithub style={{ height: '40px', width: '40px' }} target="_blank" /> </a>
             </div>
             <div>
-              <a href="#" onClick={() => openInNewTab(props.linkmedium)}
+              <a  onClick={() => openInNewTab(props.linkmedium)}
                 style={{ textDecoration: 'none', color: 'white', cursor : "pointer"  }}><SiHashnode style={{ height: '40px', width: '40px' }} /></a>
             </div>
             <div>
-              <a href="#" onClick={() => openInNewTab(props.linklive)}
+              <a  onClick={() => openInNewTab(props.linklive)}
                 style={{ textDecoration: 'none', color: 'white', cursor : "pointer" }}><BsBoxArrowUpRight style={{ height: '40px', width: '40px' }} /></a>
             </div>
           </div>
