@@ -10,7 +10,7 @@ import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { FaLinkedinIn } from "react-icons/fa";
-import TransitionsModal from "../Modal/ContactModal.jsx";
+// import TransitionsModal from "../Modal/ContactModal.jsx";
 import About from "../About/About.js";
 import Projects from "../Projects/Projects.js";
 // import Techstack from "../About/Techstack.js";
@@ -59,10 +59,10 @@ function Home2() {
             </li>
           </ul>
 
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" , marginBottom: "10px"}}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Akash</footer>
+          <footer className="blockquote-footer">Akash Bind</footer>
         </blockquote>
       </Card.Body>
     </Card>
@@ -97,15 +97,15 @@ function Home2() {
             <h1>FIND ME ON</h1>
             <div style={{display: 'grid', marginLeft: 'auto', marginRight:'auto', width:'300px', gridTemplateColumns:'30% 30% 30%'}}>
               <div>
-                <a onClick={() => openInNewTab("https://github.com/akashbind12")}
-                   style={{ textDecoration: 'none', color: 'white', cursor : "pointer" }}> <AiFillGithub style={{ height: '40px', width: '40px' }} /> </a>
+                <p onClick={() => openInNewTab("https://github.com/akashbind12")}
+                   style={{ textDecoration: 'none', color: 'white', cursor : "pointer" }}> <AiFillGithub style={{ height: '40px', width: '40px' }} /> </p>
               </div>
               <div>
-                <a  style={{textDecoration: 'none', color:'white', cursor : "pointer" }}><AiOutlineTwitter style={{height: '40px', width: '40px'}} /></a>
+                <p  style={{textDecoration: 'none', color:'white', cursor : "pointer" }}><AiOutlineTwitter style={{height: '40px', width: '40px'}} /></p>
               </div>
               <div>
-                <a onClick={() => openInNewTab("https://www.linkedin.com/in/akashbind12/")}
-                   style={{ textDecoration: 'none', color: 'white', cursor : "pointer"  }}><FaLinkedinIn style={{ height: '40px', width: '40px' }} /></a>
+                <p onClick={() => openInNewTab("https://www.linkedin.com/in/akashbind12/")}
+                   style={{ textDecoration: 'none', color: 'white', cursor : "pointer"  }}><FaLinkedinIn style={{ height: '40px', width: '40px' }} /></p>
               </div>
           </div>
           <br/>
@@ -138,7 +138,7 @@ function Home2() {
               </p>
             </h3>
             <br /> <br />
-            <TransitionsModal />
+            {/* <TransitionsModal /> */}
           </Col>
         </Row>
       </Container>

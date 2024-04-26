@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
+// import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 // import axios from "axios";
 import pdf from "../../Assets/Akash_Bind_Resume.pdf";
@@ -35,7 +35,7 @@ function Resume() {
 
   return (
     <Container fluid className="resume-section">
-      <Particle />
+      {/* <Particle /> */}
       <Container>
         <Row
           style={{ justifyContent: "center", position: "relative" }}

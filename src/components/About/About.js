@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
+import { Container } from "react-bootstrap";
+// import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+// import Aboutcard from "./AboutCard";
+// import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -15,7 +15,7 @@ function About() {
 
   return (
     <Container fluid className="about-section">
-      <Particle />
+      {/* <Particle /> */}
       <Container fluid>
        
         <h1 className="project-heading" data-aos="fade-up">

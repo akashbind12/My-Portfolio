@@ -1,7 +1,6 @@
 import React from 'react'
-import TransitionsModal from '../Modal/ContactModal'
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from '../Particle';
+// import Particle from '../Particle';
 import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -16,7 +15,7 @@ export const Contact = () => {
     return (
         <div>
             <Container fluid className="contact-section">
-                <Particle />
+                {/* <Particle /> */}
                 <Container fluid>
              <h1>FIND ME ON</h1>
              <br />
@@ -64,7 +63,6 @@ export const Contact = () => {
               </p>
             </h3>
             <br /> <br />
-            <TransitionsModal />
             </Container>
             </Container>
         </div>

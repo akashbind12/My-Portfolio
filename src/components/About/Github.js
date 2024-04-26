@@ -6,11 +6,13 @@ function Github() {
   const colourTheme = {
     background: "transparent",
     text: "#ffffff",
-    grade4: "purple",
-    grade3: "purple",
-    grade2: "purple",
-    grade1: "purple",
-    grade0: "#ecd9fc",
+    grade4: "#196127", // Darkest shade of green
+    grade3: "#239a3b",
+    grade2: "#7bc96f",
+    grade1: "#c6e48b",
+    grade0: "#ebedf0", // Lightest shade of green
+    light: ["#ebedf0", "#196127"], // Light theme colors
+    dark: ["#0d1117", "#34d058"] // Dark theme colors
   };
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
