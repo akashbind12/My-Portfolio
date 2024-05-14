@@ -38,10 +38,10 @@ function Home2() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple"> Akash Bind </span>
-            from <span className="purple"> Navi Mumbai, Maharashtra, India.</span>
+            {/* Hi Everyone, I am <span className="purple"> Akash Bind </span>
+            from <span className="purple"> Navi Mumbai, Maharashtra, India.</span> */}
             {/* <br /> I have completed my graduation in Electronics Engineering. */}<br/><br />
-            A highly dedicated and passionate full-stack web developer with excellent administrative and communication skills and the ability to write efficient code.
+            A highly dedicated and passionate <span className="purple"> full-stack web developer </span> with excellent administrative and communication skills and the ability to write efficient code.
             Looking forward to an exciting opportunity in a challenging role as a full-stack developer
             <br />
             <br />
