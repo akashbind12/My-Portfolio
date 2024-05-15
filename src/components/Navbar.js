@@ -9,6 +9,7 @@ import { CgGitFork } from "react-icons/cg";
 import pdf from "../Assets/Akash_Bind_Resume.pdf";
 // import { ImBlog } from "react-icons/im";
 
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -32,6 +33,12 @@ function NavBar() {
   }
 
   window.addEventListener("scroll", scrollHandler);
+  
+  // const pdf = 'https://drive.google.com/file/d/1y7xauEmCT7vds2d9aKb746Q9k_6N7_KZ/view';
+  const handleDownload = () => {
+    // Open the PDF in a new tab
+    window.open("https://drive.google.com/file/d/1y7xauEmCT7vds2d9aKb746Q9k_6N7_KZ/view", '_blank');
+  };
 
   return (
     <Navbar
@@ -107,7 +114,9 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                href={pdf}
+               download="Akash_Bind_Resume.pdf"
                target="_blank"
+               onClick={handleDownload}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
