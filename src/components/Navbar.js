@@ -107,6 +107,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                href={pdf}
+               target="_blank"
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
